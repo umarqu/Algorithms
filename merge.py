@@ -1,4 +1,5 @@
 def merge(left, right):
+	
 	if not len(left) or not len(right):
 		return left or right
 
@@ -28,4 +29,4 @@ def mergesort(list):
 	return merge(left, right)
 
 if __name__ == "__main__":
-	print mergesort([3,4,5,1,2,8,3,7,6])
+	print mergesort([3,4,5,1,2,8,3,7,6,3.7.12.57.89])
